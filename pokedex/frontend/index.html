@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Pokedex</title>
-</head>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
     
-</style>
-<body>
-  <div id="root"></div>
+    body {
+      background-color: #f4f0cc; 
+      font-family: 'Roboto', sans-serif;
+      min-height: 100vh; 
+      margin: 0;
+    }
 
-  <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    p {
+      line-height: 1.2; 
+    }
+
+    .bg-card {
+      background-color: #ede490; 
+    }
+    .text-primary {
+      color: #8D6E63; 
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="root" class="w-full max-w-screen-lg mx-auto"></div>
+
   <script src="index.js"></script>
 </body>
 </html>
